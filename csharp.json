@@ -1,0 +1,417 @@
+{ "cards":[
+    {
+        "front": "Keys to run a program and display console.",
+        "back": "Ctr - F5"
+    },
+    {
+        "front": "prints a line to the console.",
+        "back": "Console.WriteLine(\"text to  display\");"
+    },
+    {
+        "front": "prints to the console but not a new line",
+        "back": "Console.Write(\"text to  display\");"
+    },
+    {
+        "front": "prints a line to the console with a variable",
+        "back": "Console.WriteLine($\"text text {variable}\");"
+    },
+    {
+        "front": "Classes"
+    },
+    {
+        "front": "The first letter of a method should be ",
+        "back": "capatalized"
+    },
+    {
+        "front": "Method overloading",
+        "back": "Different methods but same name with different parameters."
+    },
+    {
+        "front": "Optional parameters for methods",
+        "back": "the parameter and any parameter after the first parameter will have a intialized a value"
+    },
+    {
+        "front": "Why is the Main method static",
+        "back": "A main method is static because it is available to run when your program starts and as it is the entry point of the program it runs without creating an instance of the class. In other words, static functions exist before a class is instantiated so static is applied to the main entry point"
+    },
+    {
+        "front": "Method overloading",
+        "back": "Methods parameters change."
+    },
+    {
+        "front": "Methods with optional parameters",
+        "back": "parameters need to have values assigned in Method definition and all parameters after must have optional value."
+    },
+    {
+        "front": "Methods named parameters must have optional parameters.",
+        "back": "Use a name to identify the parameter, don't need to be in order."
+    },
+    {
+        "front": "Expression bodied Methods and properties.",
+        "back": "Must have a return statement( or void), single statement, can read only properties with a simple accessor, have => show return type."
+    },
+    {
+        "front": "Recursion",
+        "back": "Method calls itself."
+    },
+    {
+        "front": "Values types and reference types",
+        "back": "values types point to value , where reference types point to memory location that contain the value."
+    },
+    {
+        "front": "Output a line with the words \"column1\" and \"column2\" with 2 spaces between the first word and second.",
+        "back": "Console.WriteLine($\"{\"column1\",\"column2\",9}\");"
+    },
+    {
+        "front": "Increase a array array1[2] position 1 by one using a operator.",
+        "back": "\"++array1[1];\""
+    },
+    {
+        "front": "Declare a array with name array1 to have 6 positions and be type int.",
+        "back": "var array1 = new int[5];"
+    },
+    {
+        "front": "Used to handle errors.",
+        "back": "try {  }\ncatch( SystemError ex ) { }"
+    },
+    {
+        "front": "Property constructor",
+        "back": "{get; set}"
+    },
+    {
+        "front": "public override string ToString() =>",
+        "back": "All objects have a ToString() method."
+    },
+    {
+        "front": "C# Property",
+        "back": "property is a member that provides a flexible mechanism to read, write, or compute the value of a private field. Properties can be used as if they are public data members, but they are actually special methods called accessors."
+    },
+    {
+        "front": "Two types of multi-dimensional arrays.",
+        "back": "rectangular and jagged."
+    },
+    {
+        "front": "A rectangular array of type int",
+        "back": "int[,] rectangular = {{1,2,3},{4,3,4}};"
+    },
+    {
+        "front": "A jagged array of type int",
+        "back": "int[][] jagged = {new int[] {1,2}\n                         new int[] {3},\n                         new int[] {4, 5, 6}};"
+    },
+    {
+        "front": "Multidimensional array dynamically",
+        "back": "int[,] rectangular = new int[3,4];\nint[][] jagged;\njagged = new int[2][];\njagged[0] = new int[5];\njagged[0] = new int[3];"
+    },
+    {
+        "front": "keyword used to declare variable and type is infered on assignment. Used with the new keyword.",
+        "back": "var  "
+    },
+    {
+        "front": "LINQ",
+        "back": "Language integrated Query."
+    },
+    {
+        "front": "LINQ using",
+        "back": "using System.Linq;"
+    },
+    {
+        "front": "Query keywords",
+        "back": "from, where, and select"
+    },
+    {
+        "front": "Query doesnt happen until",
+        "back": "itterating over data structures. "
+    },
+    {
+        "front": "Imperative vs Declarative Programming",
+        "back": "Declarative - conditions data must satisfy to be part of the results\nImperative - percise actions to locate data that shoudl be part of the results"
+    },
+    {
+        "front": "LINQ query",
+        "back": "var filtered = from value in values where value > 4 select value;"
+    },
+    {
+        "front": "LinQ extension methods.",
+        "back": "Any(), First()"
+    },
+    {
+        "front": "Composition",
+        "back": "imbed into classes other types or classes"
+    },
+    {
+        "front": "Throw an exception",
+        "back": "Use code to make exception"
+    },
+    {
+        "front": "this",
+        "back": "access current objec to the class"
+    },
+    {
+        "front": "Static variables or methods",
+        "back": "Define with static keyword"
+    },
+    {
+        "front": "garbage collection"
+    },
+    {
+        "front": "read only variables",
+        "back": "get only properties"
+    },
+    {
+        "front": "Class View and object browser window",
+        "back": "tool to look at class and jump to definition, browser browses to object"
+    },
+    {
+        "front": "Object initializer",
+        "back": "different way than constructores"
+    },
+    {
+        "front": "overload build-in operators",
+        "back": "over like '+'"
+    },
+    {
+        "front": "Structures ",
+        "back": "diffent type of object not a class"
+    },
+    {
+        "front": "Extension methods",
+        "back": "allow the adding of methods to class even when you don't have the code"
+    },
+    {
+        "front": "Controls statements",
+        "back": "?:, if, if..else, , do ... while,"
+    },
+    {
+        "front": "Statement to throw a exception",
+        "back": "throw new System.Exception, does class need to be marked as throwing one?"
+    },
+    {
+        "front": "String interpilation",
+        "back": "modify a string ex $\"{Minute:D2}\"  D2 integer 2 digits 02 or 20"
+    },
+    {
+        "front": "ToString() method",
+        "back": "all classes have one or can override, must be public, returns string, and no input parameters"
+    },
+    {
+        "front": "Declaring a variable with type inference",
+        "back": "var    var variableName = new Class(); default constructorrrr"
+    },
+    {
+        "front": "ToString() can be called",
+        "back": "explicitly and inplicity"
+    },
+    {
+        "front": "Instance variable vs Auto-Implemented Properties",
+        "back": "instance variable lowercase, auto-implemented properties are capatalized and have getters/setters as needed."
+    },
+    {
+        "front": "this used for",
+        "back": "refering to local variable not parameter, and implicet and explicit call to methods"
+    },
+    {
+        "front": "Constructor calling another constructor",
+        "back": ": this(parameters) {} - it will have he same name"
+    },
+    {
+        "front": "Exception for arguments out of Rance",
+        "back": "ArgumentOutOfRangeException"
+    },
+    {
+        "front": "nameof() operator",
+        "back": "Returns the string name of the object"
+    },
+    {
+        "front": "memory management",
+        "back": "Garbage Collection responsible for collecting unused memory, every object has a destructor, set object to null and if only reference will be reclaimed."
+    },
+    {
+        "front": "const   ",
+        "back": "initialized in declaration, implicitly static one copy, may be initialized , readonly for more complex initializations"
+    },
+    {
+        "front": "readonly variables",
+        "back": "different constant values for each object, must be initialized in delcaration or constructor. getter only is readonly"
+    },
+    {
+        "front": "Class View Visual Studio",
+        "back": "View/Class View  displays window, can dock in the Solution Explorer"
+    },
+    {
+        "front": "Object Browser",
+        "back": "Explore objects in program."
+    },
+    {
+        "front": "Object Initializers",
+        "back": "Create an object and initializer its public data\nUsed with a constructor that can be called with no arguments and public properties."
+    },
+    {
+        "front": "is a value type that is typically used to encapsulate small groups of related variables, such as the coordinates of a rectangle or the characteristics of an item in an inventory",
+        "back": "Struct 16bytes or smaller, represents a single value"
+    },
+    {
+        "front": "overloading operator",
+        "back": "operator keyword and the operand return new object, compared to C++ , C# automatically gives the assignment = when overloading +,-,/"
+    },
+    {
+        "front": "Extension methods are use to ",
+        "back": "add functionality, use keyword extension, define outside class, "
+    },
+    {
+        "front": "Extensions declaring",
+        "back": "static class AnyName, methods must be static, methods must be static, and this keyword in parameter before class being extended."
+    },
+    {
+        "front": "Inheritence",
+        "back": "is a relation :  implicitly inherit from base object always ToString()"
+    },
+    {
+        "front": "decimal values identifer",
+        "back": ".06M   M say display as decimal according to location."
+    },
+    {
+        "front": "Condole.WriteLine(object)",
+        "back": "implicitly calls ToString()"
+    },
+    {
+        "front": "unless called explicitly the parent objects constructor is called",
+        "back": "implicitly calls no parameter constructor"
+    },
+    {
+        "front": "Auto-Implemented properties",
+        "back": "capitalized\n{get; set}\nPublic"
+    },
+    {
+        "front": "call base class constructor",
+        "back": ":base (parameters in base constructor)"
+    },
+    {
+        "front": "virtual keyword",
+        "back": "allows method to be override in class inherited. When a virtual method is invoked, the run-time type of the object is checked for an overriding member. The overriding member in the most derived class is called, which might be the original member, if no derived class has overridden the member.\r\n\r\nBy default, methods are non-virtual. You cannot override a non-virtual method"
+    },
+    {
+        "front": "protected keyword",
+        "back": "The protected keyword is a member access modifier. ... The protected keyword is also part of the protected internal and private protected access modifiers. A protected member is accessible within its class and by derived class instances."
+    },
+    {
+        "front": "is a  relations",
+        "back": "inherited abstract class, or class"
+    },
+    {
+        "front": "is operator",
+        "back": "Used to test type   anyClass is Object"
+    },
+    {
+        "front": "Downcast    ()",
+        "back": "(class that is below)upperClass"
+    },
+    {
+        "front": "GetType() method",
+        "back": "returns the type of object."
+    },
+    {
+        "front": "Sealed Methods and Classes",
+        "back": "-only methods declared virtual, override or abstract can be overridden\n-method declared sealed is a base class cannot be overridden in a derived class\n- private methods are implicitly sealed\n- static methods are implicitly sealed\n-derived class method declared both overrice and sealed can override a base class method, but cannot be overridden in derived classes further down the inheritance hierarchy"
+    },
+    {
+        "front": "sealed methods delcaration",
+        "back": "can never change , so all derived classes are the saem"
+    },
+    {
+        "front": "Sealed class is ",
+        "back": "string"
+    },
+    {
+        "front": "Interfaces",
+        "back": "define and standardize the ways to interact, enable disparate types to have a is-a relationship"
+    },
+    {
+        "front": "interface keyword",
+        "back": "defines a interface, can contain , abstract methods, properties, indesers, events.\nMember are implicitly public and abstract.\nNo implementation details."
+    },
+    {
+        "front": "interface vs abstract",
+        "back": "interfaces have no fields and no default implementations"
+    },
+    {
+        "front": "interface naming convention",
+        "back": "start with capitol I and capitol name."
+    },
+    {
+        "front": "UML  « interface »",
+        "back": "Guillemet « ,   dashed lines in UML are interface."
+    },
+    {
+        "front": "Exception handling keywords",
+        "back": "try, throw, catch, finally, using"
+    },
+    {
+        "front": "Read in a integer from command promp.",
+        "back": "int.Parse(Console.Readline());"
+    },
+    {
+        "front": "Read in a integer from command promp but with exeception handling.",
+        "back": "int.TryParse(string s, out int result)"
+    },
+    {
+        "front": "Loop with condition checking at the end.",
+        "back": "do { \n} while();"
+    },
+    {
+        "front": "Error handleing",
+        "back": "try {}\ncatch (error type)\n{}"
+    },
+    {
+        "front": "Termination model of exception handlying",
+        "back": "terminateds instead of returning to original error."
+    },
+    {
+        "front": "finnally block",
+        "back": "will execute on error even with no error, usually to clean up for errors."
+    },
+    {
+        "front": "Manually throwing a exception.",
+        "back": "throw new Exception(\"message\");"
+    },
+    {
+        "front": "rethrow a error must be in catch{}",
+        "back": "catch{\nthrow\n}"
+    },
+    {
+        "front": "Automatic deallocation of a resource that implements IDisposabel and provides a Dispose() method, shorthand for try/finally",
+        "back": "using( var exampleObject = new ExampleClass()) {\n} //Dispose method called automatically"
+    },
+    {
+        "front": "using Dispose() method.",
+        "back": "if ( exampleObject != null)\n  exampleObject.Dispose();\n}"
+    },
+    {
+        "front": "Class Exception",
+        "back": "class"
+    },
+    {
+        "front": "Custom Exception",
+        "back": "inherited from Exception, 3 default constructors (), (string messageValue), (string messageValue, Exception inner)"
+    },
+    {
+        "front": " ",
+        "back": "?. or ?[]\nexampleObject?.Dispose();"
+    },
+    {
+        "front": "Operators is and as",
+        "back": "Downcasting can cause InvalidCastExceptions\nvar test = currentTest as BaseTest;\ntest?.SomeMethod"
+    },
+    {
+        "front": "Nullable Types",
+        "back": "decimal? salary  = object?.variable;"
+    },
+    {
+        "front": "null Coalescing Operator",
+        "back": "??  if left operand is not null, the entire ?? expression evaluates to the left operands value or is null it evaluates to the right operands valuse\nGetValueOrDefault()"
+    },
+    {
+        "front": "Exception filters ",
+        "back": "catch(ExceptionType name) when(condition)\ncatch when(condition)"
+    }
+]
+}
